@@ -1,0 +1,66 @@
+AIzaSyAkzfpeKlbvYCa1QeyMc7c_e0OUF_okjis
+youtube api AIzaSyAkzfpeKlbvYCa1QeyMc7c_e0OUF_okjis
+
+
+#@app.route('/<int:n>', methods=['GET'])
+def prime(n):
+    if n > 1:
+        for i in range(2,n):
+            if (n % i) == 0:
+                result = {
+                    "Number": n,
+                    "prime": False,
+                    "status": "successful"
+                }
+                return jsonify(result)
+                break
+            else:
+                result = {
+                    "Number": n,
+                    "prime": True,
+                     "other numbers": [1,2,667,23,466]
+                }
+                return jsonify(result)
+    else:
+        result = {
+                    "Number": n,
+                    "prime": False,
+                    "other numbers": (201,2,67,3,66)
+                }
+        return jsonify(result)
+        
+
+
+
+
+for user, contact in result:
+        return jsonify(user.id,user.name,user.location, contact.p_num)
+
+
+
+        result=db.session.query(User,Contact).join(User).all()
+
+         vari=User.query.all()
+    print(type(vari))
+    return jsonify("hello")
+
+
+
+Contact.json(user) for user in db.session.query(User,Contact).join(User).all()
+
+
+
+contact=db.relationship('Contact',backref='contact', uselist=False)
+
+
+
+NMG-0GOC-H67N-6AS9
+
+
+
+
+
+
+
+
+
